@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="../assets/explosion1.png">
+	<!-- Created with Adobe Flash Professional version 15.0.0.173 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="dust1x1_20000" x="0" y="0" width="111" height="105" pivotX="56" pivotY="68" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20001" x="111" y="0" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20002" x="222" y="0" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20003" x="333" y="0" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20004" x="0" y="105" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20005" x="111" y="105" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20006" x="222" y="105" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20007" x="333" y="105" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20008" x="0" y="210" width="111" height="110"/>
+	<SubTexture name="dust1x1_20009" x="111" y="210" width="111" height="110"/>
+	<SubTexture name="dust1x1_20010" x="222" y="210" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20011" x="333" y="210" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20012" x="0" y="320" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20013" x="111" y="320" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20014" x="222" y="320" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20015" x="333" y="320" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20016" x="0" y="425" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20017" x="111" y="425" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20018" x="222" y="425" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20019" x="333" y="425" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20020" x="0" y="530" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20021" x="111" y="530" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20022" x="222" y="530" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+	<SubTexture name="dust1x1_20023" x="333" y="530" width="111" height="105" frameX="0" frameY="0" frameWidth="111" frameHeight="110"/>
+</TextureAtlas>
