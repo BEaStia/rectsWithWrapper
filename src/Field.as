@@ -57,12 +57,12 @@ public class Field extends Sprite {
     }
 
     public function GenerateAllPositions():void {
-        while(objects.length < 10) {
+        while(objects.length < 100) {
             objects.push(GenerateOnePosition());
         }
     }
 
-    public function GenerateOnePosition():Building {
+    public function GenerateOnePosition():ContainerObject {
         var places:Array = [];
         var i:int, j:int, sizeX:int, sizeY:int;
 
@@ -98,7 +98,7 @@ public class Field extends Sprite {
         if (places.length != 0) {
             var number:int = Math.random() * places.length;
             var place:Point = places[number];
-            var building:Building = new Building(sizeX, sizeY, place.x, place.y);
+            var building:ContainerObject = new ContainerObject(sizeX, sizeY, place.x, place.y);
             for(i = 0; i < sizeY; i++) {
                 building.cells[i] = [];
                 for (j = 0; j < sizeX; j++) {

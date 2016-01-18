@@ -51,6 +51,7 @@ public class GroundRect extends GameObject {
         }
     }
 
+    //called on timer imitating bounding frustrum
     private function ShowImage():void {
         background.removeFromParent(true);
         image = new Image(EmbeddedAssets.BuildRect);
@@ -58,6 +59,7 @@ public class GroundRect extends GameObject {
         addChildAt(image, 0);
     }
 
+    //called on timer imitating bounding frustrum
     private function HideImage():void {
         background = new Image(texture);
         addChildAt(background, 0);
@@ -113,7 +115,7 @@ public class GroundRect extends GameObject {
 
     override public function OnClick():void {
         if (item != null) {
-            (item as Building).Destroy(this);
+            (item as ContainerObject).Destroy(this);
         }
     }
 
@@ -152,7 +154,7 @@ public class GroundRect extends GameObject {
             Starling.juggler.remove(movie);
             movie.removeEventListener(EnterFrameEvent.ENTER_FRAME, checkForLastFrame);
             movie.removeFromParent(true);
-            (item as Building).ClearCell(this.fieldX - item.fieldX, this.fieldY - item.fieldY);
+            (item as ContainerObject).ClearCell(this.fieldX - item.fieldX, this.fieldY - item.fieldY);
             item = null;
         }
     }

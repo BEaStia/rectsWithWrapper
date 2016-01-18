@@ -11,6 +11,7 @@ import starling.core.Starling;
 import starling.display.Sprite;
 import starling.events.TouchEvent;
 import starling.events.TouchPhase;
+import starling.text.TextField;
 import starling.textures.Texture;
 import starling.textures.TextureAtlas;
 import starling.utils.AssetManager;
@@ -26,6 +27,9 @@ public class Game extends Sprite {
     public var stageWidth:int = Starling.current.nativeStage.stageWidth;
     public var stageHeight:int = Starling.current.nativeStage.stageHeight;
     public var assets:AssetManager;
+    private var scoresTextField:TextField;
+    private var _score:int;
+
 
 
     private var drag:Boolean = false;
@@ -33,6 +37,14 @@ public class Game extends Sprite {
     private var previousInfo:MouseInfo = null;
     private var dragged:Boolean = false;
 
+    public function get score():int {
+        return _score;
+    }
+
+    public function set score(value:int):void {
+        _score = value;
+        scoresTextField.text = _score.toString();
+    }
 
     public function Game() {
         _instance = this;
