@@ -1,4 +1,4 @@
-package {
+package common {
 
 import flash.display.Sprite;
 import starling.core.Starling;
